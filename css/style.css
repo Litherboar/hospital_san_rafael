@@ -363,7 +363,7 @@ footer{
 }
 
 /* RESPONSIVE */
-
+/*Cambio No25. Aplicar estilos responsivos para detail-header y report-header */
 @media(max-width:768px){
 
     .hero h2{
