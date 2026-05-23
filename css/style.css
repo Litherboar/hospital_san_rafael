@@ -312,7 +312,7 @@ td{
 tr:nth-child(even){
     background:#F8FAFC;
 }
-
+/* Cambio No34 Aplicar estilos a botones edit-btn y delete-btn */
 .edit-btn{
     background:#F59E0B;
 }
