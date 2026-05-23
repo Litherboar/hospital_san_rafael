@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Panel Administrativo
+    </title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Hospital San Rafael
+        </div>
+
+        <div class="nav-links">
+
+            <a href="index.html">
+                Inicio
+            </a>
+
+            <a href="detalle.html">
+                Detalle
+            </a>
+
+            <a href="admin.html">
+                Panel
+            </a>
+
+            <a href="login.html">
+                Login
+            </a>
+
+        </div>
+
+    </nav>
+
+    <header class="topbar">
+
+        <h1>
+            Panel Administrativo
+        </h1>
+
+        <button class="logout-btn">
+            Cerrar sesión
+        </button>
+
+    </header>
+
+    <main class="container">
+
+        <div class="dashboard-grid">
+
+            <div class="admin-card">
+
+                <h2>
+                    Gestión de productos
+                </h2>
+
+                <form>
+
+                    <input type="text"
+                           placeholder="Nombre del producto">
+
+                    <select>
+
+                        <option>
+                            ACTIVE
+                        </option>
+
+                        <option>
+                            WARNING
+                        </option>
+
+                        <option>
+                            ERROR
+                        </option>
+
+                    </select>
+
+                    <textarea placeholder="Descripción"></textarea>
+
+                    <button type="submit">
+                        Crear producto
+                    </button>
+
+                </form>
+
+            </div>
+
+            <div class="admin-card">
+
+                <h2>
+                    Gestión de eventos
+                </h2>
+
+                <form>
+
+                    <input type="text"
+                           placeholder="Título del evento">
+
+                    <select>
+
+                        <option>
+                            ACTIVE
+                        </option>
+
+                        <option>
+                            WARNING
+                        </option>
+
+                        <option>
+                            ERROR
+                        </option>
+
+                    </select>
+
+                    <textarea placeholder="Descripción del incidente"></textarea>
+
+                    <button type="submit">
+                        Registrar evento
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <!-- TABLA -->
+
+        <section class="table-section">
+
+            <div class="section-title">
+
+                <h2>
+                    Productos registrados
+                </h2>
+
+            </div>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Producto
+                        </th>
+
+                        <th>
+                            Estado
+                        </th>
+
+                        <th>
+                            Disponibilidad
+                        </th>
+
+                        <th>
+                            Acciones
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>
+                            Historia clínica
+                        </td>
+
+                        <td>
+                            <span class="badge active">
+                                ACTIVE
+                            </span>
+                        </td>
+
+                        <td>
+                            99%
+                        </td>
+
+                        <td>
+
+                            <button class="edit-btn">
+                                Editar
+                            </button>
+
+                            <button class="delete-btn">
+                                Eliminar
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+                            Laboratorio
+                        </td>
+
+                        <td>
+                            <span class="badge error">
+                                ERROR
+                            </span>
+                        </td>
+
+                        <td>
+                            87%
+                        </td>
+
+                        <td>
+
+                            <button class="edit-btn">
+                                Editar
+                            </button>
+
+                            <button class="delete-btn">
+                                Eliminar
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Hospital San Rafael - Estado General
+    </title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Hospital San Rafael
+        </div>
+
+        <div class="nav-links">
+
+            <a href="index.html">
+                Inicio
+            </a>
+
+            <a href="detalle.html">
+                Detalle
+            </a>
+
+            <a href="admin.html">
+                Panel
+            </a>
+
+            <a href="login.html">
+                Login
+            </a>
+
+        </div>
+
+    </nav>
+
+    <!-- HEADER -->
+
+    <header class="topbar">
+
+        <div>
+
+            <h1>
+                Hospital Universitario San Rafael
+            </h1>
+
+            <p>
+                Sistema de monitoreo de servicios
+            </p>
+
+        </div>
+
+        <div class="status-global active">
+
+            OPERATIVO
+
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <h2>
+            Estado general de la plataforma
+        </h2>
+
+        <p>
+            Monitoreo en tiempo real de sistemas y servicios hospitalarios
+        </p>
+
+        <div class="global-indicators">
+
+            <div class="card-indicator">
+
+                <h3>
+                    Disponibilidad
+                </h3>
+
+                <span>
+                    99.8%
+                </span>
+
+            </div>
+
+            <div class="card-indicator">
+
+                <h3>
+                    Sistemas activos
+                </h3>
+
+                <span>
+                    19/21
+                </span>
+
+            </div>
+
+            <div class="card-indicator">
+
+                <h3>
+                    Incidentes
+                </h3>
+
+                <span>
+                    2
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTENIDO -->
+
+    <main class="container">
+
+        <div class="section-title">
+
+            <h2>
+                Servicios monitoreados
+            </h2>
+
+        </div>
+
+        <div class="services-grid">
+
+            <a href="detalle.html?sistema=citas"
+               class="service-card">
+
+                <div>
+
+                    <h3>
+                        Sistema de citas médicas
+                    </h3>
+
+                    <p>
+                        Última actualización: hace 2 min
+                    </p>
+
+                </div>
+
+                <span class="badge active">
+                    ACTIVE
+                </span>
+
+            </a>
+
+            <a href="detalle.html?sistema=historia"
+               class="service-card">
+
+                <div>
+
+                    <h3>
+                        Historia clínica electrónica
+                    </h3>
+
+                    <p>
+                        Última actualización: hace 1 min
+                    </p>
+
+                </div>
+
+                <span class="badge warning">
+                    WARNING
+                </span>
+
+            </a>
+
+            <a href="detalle.html?sistema=laboratorio"
+               class="service-card">
+
+                <div>
+
+                    <h3>
+                        API de laboratorio
+                    </h3>
+
+                    <p>
+                        Última actualización: hace 5 min
+                    </p>
+
+                </div>
+
+                <span class="badge error">
+                    ERROR
+                </span>
+
+            </a>
+
+            <a href="detalle.html?sistema=facturacion"
+               class="service-card">
+
+                <div>
+
+                    <h3>
+                        Sistema de facturación
+                    </h3>
+
+                    <p>
+                        Última actualización: hace 3 min
+                    </p>
+
+                </div>
+
+                <span class="badge active">
+                    ACTIVE
+                </span>
+
+            </a>
+
+            <a href="detalle.html?sistema=servidor"
+               class="service-card">
+
+                <div>
+
+                    <h3>
+                        Servidor de base de datos
+                    </h3>
+
+                    <p>
+                        Última actualización: hace 1 min
+                    </p>
+
+                </div>
+
+                <span class="badge active">
+                    ACTIVE
+                </span>
+
+            </a>
+
+        </div>
+
+        <!-- INCIDENTES -->
+
+        <section class="incidents">
+
+            <div class="section-title">
+
+                <h2>
+                    Historial de incidentes
+                </h2>
+
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item error">
+
+                    <div class="timeline-date">
+                        20 Mayo 2026
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            Caída del sistema de laboratorio
+                        </h3>
+
+                        <p>
+                            El servicio presentó interrupciones durante 15 minutos.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="timeline-item warning">
+
+                    <div class="timeline-date">
+                        19 Mayo 2026
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            Lentitud en historia clínica
+                        </h3>
+
+                        <p>
+                            Tiempo elevado de respuesta en consultas médicas.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="timeline-item active">
+
+                    <div class="timeline-date">
+                        18 Mayo 2026
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            Servicios restaurados
+                        </h3>
+
+                        <p>
+                            Todos los sistemas operan con normalidad.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Hospital Universitario San Rafael Tunja
+        </p>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
