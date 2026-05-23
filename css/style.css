@@ -161,6 +161,8 @@ a{
 
 /* TIMELINE */
 
+/* Cambio No11. Aplicar estilos de timeline por severidad (active/warning/error) */
+
 .incidents{
     margin-top:60px;
 }
