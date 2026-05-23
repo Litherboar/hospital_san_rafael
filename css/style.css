@@ -48,7 +48,7 @@ a{
     display:flex;
     gap:20px;
 }
-
+/* Cambio No37 Permitir wrap en nav-links en móvil*/
 .nav-links a{
 
     color:white;
