@@ -138,7 +138,7 @@ a{
 .service-card:hover{
     transform:translateY(-5px);
 }
-
+/* Cambio No5 Definir y aplicar clases badge (active/warning/error) */
 .badge{
     padding:10px 14px;
     border-radius:10px;
