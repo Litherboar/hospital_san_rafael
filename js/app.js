@@ -13,7 +13,7 @@ setInterval(() => {
 const loginBtn = document.getElementById("login-btn");
 
 if(loginBtn){
-
+/*Cambio No13 Implementar lectura de query param */
     loginBtn.addEventListener("click", function(e){
 
         e.preventDefault();
