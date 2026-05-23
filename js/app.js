@@ -25,7 +25,7 @@ if(loginBtn){
 }
 
 /* DETALLE DINÁMICO */
-/* Cambio No13. Mapear parámetros a nombres de sistemas (objeto nombres) */
+/* Cambio No13. Implementar lectura de query param */
 
 const params = new URLSearchParams(window.location.search);
 
@@ -35,6 +35,7 @@ const titulo = document.querySelector(".titulo-sistema");
 
 if(sistema && titulo){
 
+    /* Cambio No14. Mapear parámetros a nombres de sistemas (objeto nombres) */
     const nombres = {
 
         citas:"Sistema de citas médicas",
