@@ -140,6 +140,7 @@ a{
     transform:translateY(-5px);
 }
 /* Cambio No5 Definir y aplicar clases badge (active/warning/error) */
+/* Cambio No41 Validar contraste de colores en badges y botones*/ 
 .badge{
     padding:10px 14px;
     border-radius:10px;
