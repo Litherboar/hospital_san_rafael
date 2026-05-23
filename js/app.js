@@ -48,6 +48,6 @@ if(sistema && titulo){
         servidor:"Servidor de base de datos"
 
     };
-
+/* Cambio No15. Actualizar título dinámico en detalle.html via JS */
     titulo.innerHTML = nombres[sistema];
 }
