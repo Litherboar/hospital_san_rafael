@@ -25,6 +25,7 @@ if(loginBtn){
 }
 
 /* DETALLE DINÁMICO */
+/* Cambio No13. Mapear parámetros a nombres de sistemas (objeto nombres) */
 
 const params = new URLSearchParams(window.location.search);
 
