@@ -17,7 +17,7 @@ if(loginBtn){
     loginBtn.addEventListener("click", function(e){
 
         e.preventDefault();
-/* Cambio No28 Redirigir a admin.html tras login exitoso*/
+
         window.location.href = "admin.html";
 
     });
