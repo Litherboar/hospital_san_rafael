@@ -13,7 +13,7 @@ setInterval(() => {
 const loginBtn = document.getElementById("login-btn");
 
 if(loginBtn){
-
+/* Cambio No27 Implementar lógica de login frontend (login-btn click) */
     loginBtn.addEventListener("click", function(e){
 
         e.preventDefault();
