@@ -1,7 +1,7 @@
 
 /* Cambio No12. Crear script app.js con lógica base */
 /* ACTUALIZACIÓN AUTOMÁTICA */
-
+/* Cambio No17. Configurar intervalo de actualización automática (setInterval) */
 setInterval(() => {
 
     console.log("Actualizando estado del sistema...");
