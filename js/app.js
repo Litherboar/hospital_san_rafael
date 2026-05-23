@@ -1,3 +1,5 @@
+
+/* Cambio No12. Crear script app.js con lógica base */
 /* ACTUALIZACIÓN AUTOMÁTICA */
 
 setInterval(() => {
